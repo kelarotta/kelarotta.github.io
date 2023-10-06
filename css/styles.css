@@ -10,9 +10,23 @@
     that don't come from third party libraries. This file gets compiled using
     Gulp and send to the /css folder which is then loaded on the page.
 */
-body {
+
+/* CEEVEEN VÄRIT: 
+
+KELTANEN:                 #ffc61a
+RUSKEE:                   #452728
+
+TUMMAN KELTANEN?:         #c89d1a 
+VIILOTTI:                 #a359a0
+VALINTA VIILOTTI:         #8e40fa
+
+TEKSTI (TUMMA):           #372a28 
+TEKSTI (VAALEE/KELTANEN): #ffd964    */
+
+
+body { /* koko vitun sivu */
   font-family: Lato,sans-serif;
-  font-size: 16px
+  font-size: 16px  /* alk. 16px */
 }
 body.active {
   overflow: hidden;
@@ -34,7 +48,7 @@ body.active {
 .no-js #experience-timeline > div h4 {
   font-size: 1.2em;
   font-weight: 300;
-  color: #7e8890;
+  color: #7e9086;
   margin: 0 0 15px
 }
 .no-js #experience-timeline > div p {
@@ -66,33 +80,54 @@ header {
   animation-timing-function: ease;
   animation-duration: 0.75s
 }
-header ul {
+header ul { /* yläpalkki */
   display: inline-block;
-  background: #fff;
+  background: rgb(235, 20, 20);
   text-align: center;
   padding: 10px;
   margin: 0;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px
 }
-header li {
+header li { /* yläpalkki tekstit */
   display: inline-block
 }
 header a {
   display: block;
-  color: #3498db;
+  color: #34db58;
   padding: 10px
 }
-header a:hover {
-  color: #217dbb;
+header a:hover { /*hoveraat nii ... */
+  color: #dac2d4;  /* tekstin väri */
+  text-decoration: none;
+  background: rgb(175, 182, 175); /* taustan väri */
+  border-radius: 4px
+}
+header a:focus { /* header painettuna */
+  color: #50db34;
+  text-decoration: none
+}
+
+header button { /* OI MAAMME SUOOOOOMIIIII SYYYYNNYIN MAAAAAAAA*/
+  display: block;
+  color: #8e7cc3;
+  padding: 10px;
+  border-style: none;
+  background-color: transparent;
+}
+
+header button:hover {   /* OI MAAMME SUOOOOOMIIIII SYYYYNNYIN MAAAAAAAA*/
+  color:     #351c75;
   text-decoration: none;
   background: #eee;
   border-radius: 4px
 }
-header a:focus {
-  color: #3498db;
+
+header button:focus {    /* OI MAAMME SUOOOOOMIIIII SYYYYNNYIN MAAAAAAAA*/
+  color:     #d9d2e9;
   text-decoration: none
 }
+
 header.active {
   display: block
 }
@@ -144,51 +179,52 @@ footer {
   margin: 0;
   color: #74808a
 }
-.top {
+.top { /* mene ylös nuolijuttu */
   text-align: center
 }
-.top span {
+.top span { /* mene ylös nuolijuttu */
   cursor: pointer;
   display: block;
   margin: 15px auto 0;
   width: 35px;
   height: 35px;
   border-radius: 50%;
-  border: 3px solid #b9bfc4;
+  border: 3px solid #2177bd;
   text-align: center
 }
-.top i {
-  color: #74808a
+.top i { /* mene ylös nuolijuttu */
+  color: #2b6899
 }
-.social {
+.social { /* some iconit alhaalla */
   text-align: right
 }
-.social ul {
+.social ul { /* some iconit alhaalla */
   margin: 5px 0 0;
   padding: 0
 }
-.social li {
+.social li { /* some iconit alhaalla */
   display: inline-block;
   font-size: 1.25em;
   list-style: none
 }
-.social a {
+.social a { /* some iconit alhaalla */
   display: block;
   color: #74808a;
   padding: 10px
 }
-.social a:hover {
-  color: #3498db
+.social a:hover { /* some iconit alhaalla */
+  color: #c97c9c
 }
-.btn-rounded-white {
+.btn-rounded-white {/* esim? ceevee nappi */
   display: inline-block;
   color: #fff;
+  background-color: transparent;
   padding: 15px 25px;
   border: 3px solid #fff;
   border-radius: 30px;
   transition: .5s
 }
-.btn-rounded-white:hover {
+.btn-rounded-white:hover { /* esim? ceevee nappi */
   color: #3498db;
   background: #fff;
   text-decoration: none
@@ -217,8 +253,8 @@ footer {
   margin: 0 auto;
   background: #3498db
 }
-.background-alt {
-  background: #f2f2f5
+.background-alt { /*experience tausta */
+  background: #a2a2a7
 }
 #lead {
   position: relative;
