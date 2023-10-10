@@ -225,7 +225,7 @@ footer {
   transition: .5s
 }
 .btn-rounded-white:hover { /* esim? ceevee nappi */
-  color: #3498db;
+  color: #00ff40;
   background: #fff;
   text-decoration: none
 }
@@ -254,14 +254,14 @@ footer {
   background: #3498db
 }
 .background-alt { /*experience tausta */
-  background: #a2a2a7
+  background: #452728
 }
 #lead {
   position: relative;
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/lead-bg.jpg) 0 0/cover;
+  background: url(../images/petri\ psykopariterapeutti.jpg) 0 0/cover;  /* taustakuva mikä lie */
   padding: 15px;
   overflow: hidden
 }
@@ -299,7 +299,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(33,125,187,.8);
+  background: rgba(206, 11, 255, 0.8); /*petrin peitto*/
   z-index: 1
 }
 #lead-down {
@@ -341,7 +341,7 @@ footer {
 }
 #about h2,
 #experience h2 {
-  color: #374054
+  color: #c89d1a
 }
 #about p {
   color: #74808a;
@@ -366,16 +366,29 @@ footer {
   right: auto;
   height: 100%;
   width: 3px;
-  background: #3498db;
+  background: #c89d1a; /* timeline viivat */
   z-index: 0
 }
+
+/* CEEVEEN VÄRIT: 
+
+KELTANEN:                 #ffc61a
+RUSKEE:                   #452728
+
+TUMMAN KELTANEN?:         #c89d1a 
+VIILOTTI:                 #a359a0
+VALINTA VIILOTTI:         #8e40fa
+
+TEKSTI (TUMMA):           #372a28 
+TEKSTI (VAALEE/KELTANEN): #ffd964    */
+
 #experience-timeline:after {
   position: absolute;
   content: '';
   width: 3px;
   height: 40px;
-  background: #3498db;
-  background: linear-gradient(to bottom,#3498db,rgba(52,152,219,0));
+  background: #c89d1a;
+  background: linear-gradient(to bottom,#c89d1a,rgba(52,152,219,0));
   top: 100%;
   left: 303px
 }
@@ -416,7 +429,7 @@ footer {
   color: #fff;
   width: 50px;
   height: 50px;
-  background: #3498db;
+  background: #ffc61a; /*TIMELINE ICONI*/
   border-radius: 50%;
   float: left;
   z-index: 99;
@@ -434,7 +447,7 @@ footer {
   left: 0;
   top: 10px;
   font-weight: 300;
-  color: #374054
+  color: #e0ac0f
 }
 #education {
   padding: 50px 15px 20px;
