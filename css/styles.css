@@ -307,7 +307,7 @@ CONTACT TEXTAREA FOCUS:   #7431d1
   height: 100vh;
   min-height: 500px;
   max-height: 1080px;
-  background: url(../images/petri\ psykopariterapeutti.jpg) 0 0/cover;  /* taustakuva mikä lie */
+  background: url(../images/hymynaamoja.png) 0 0/cover;  /* taustakuva mikä lie */
   padding: 15px;
   overflow: hidden
 }
@@ -331,10 +331,10 @@ CONTACT TEXTAREA FOCUS:   #7431d1
   letter-spacing: .05em;
   line-height: .9em
 }
-#lead-content h2 {
-  color: #bea1e7;
+#lead-content h2 { /* "Ohjelmistokehittäjä" */
+  color: #8a3f86;
   font-weight: 500;
-  font-size: 2.25em;
+  font-size: 2.5em;
   margin-bottom: 15px
 }
 #lead-overlay {
@@ -345,7 +345,7 @@ CONTACT TEXTAREA FOCUS:   #7431d1
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(255, 198, 26, 0.8); /*petrin peitto sama ko #ffc61a*/
+  background: rgba(255, 198, 26, 0.6); /*petrin peitto sama ko #ffc61a*/
   z-index: 1
 }
 
