@@ -570,7 +570,7 @@ CONTACT TEXTAREA FOCUS:   #7431d1
   color: #ffc61a;
   margin-bottom: 50px
 }
-.project {
+.project { /* Projekti palikan taustaväri */
   position: relative;
   max-width: 900px;
   margin: 0 auto 30px;
@@ -585,7 +585,7 @@ CONTACT TEXTAREA FOCUS:   #7431d1
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  margin-left: 300px;
+  margin-left: 350px;
   padding: 15px
 }
 .project-info h3 {
