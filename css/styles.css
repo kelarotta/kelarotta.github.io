@@ -28,6 +28,10 @@ CONTACT TEXTAREA:         #8a3f86
 CONTACT TEXTAREA FOCUS:   #7431d1
 
 */
+.yhteydenottoTeksti label {
+  color: #ffffff;
+}
+
 .kuvagalleria img {
   width: 970px;
   height: auto;

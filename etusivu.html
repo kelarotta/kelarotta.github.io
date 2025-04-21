@@ -233,12 +233,28 @@
     <div id="contact">
         <h2>Ota yhteyttä!</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/f/xovdawek">
+            <form
+            action="https://formspree.io/f/xovdawek"
+            method="POST"
+            class="yhteydenottoTeksti"
+            >
+            <label>
+            Sähköpostisi:
+            <input type="email" name="email">
+            </label>
+            <label>
+            Viesti:
+            <textarea name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button type="submit">Send</button>
+            </form>
+            <!-- <form method="POST" action="https://formspree.io/f/xovdawek">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="sinun sähköpostisi" required>
                 <textarea name="message" placeholder="viesti" required></textarea>
                 <button type="submit">Lähetä</button>
-            </form>
+            </form> -->
         </div>
         <!-- End #contact-form -->
     </div>
