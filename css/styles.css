@@ -28,6 +28,27 @@ CONTACT TEXTAREA:         #8a3f86
 CONTACT TEXTAREA FOCUS:   #7431d1
 
 */
+.kuvagalleria img {
+  width: 970px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto; /* keskitys ja väli kuvien väliin */
+}
+
+
+.koodiLinkki:link, .koodiLinkki:visited {
+  background-color: #ffc61a;
+  color: #372a28;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+koodiLinkki:hover, koodiLinkki:active {
+  background-color: #c89d1a;
+}
+ 
 
 body { /* koko vitun sivu */
   font-family: Lato,sans-serif;
